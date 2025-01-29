@@ -7,18 +7,18 @@ function MiningNews() {
       <h1>Mining News</h1>
       <div className="news-cards-container">
         <div className="news-card">
-          <h2>Bitcoin Price Surges to New High</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+          <h2>The Environmental Impact of Mining on Akash Network: A Sustainable Alternative?</h2>
+          <p>Examine the environmental implications of traditional mining methods and explore how Akash Network's cloud-based approach might offer a more sustainable alternative</p>
           <a href="#" className="read-more">Read More</a>
         </div>
         <div className="news-card">
-          <h2>New Mining Rig Released</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+          <h2>Mining on Akash Network: A Step-by-Step Guide for Beginners</h2>
+          <p>Unlock the potential of Akash Network: a guide to mining the most valuable and in-demand tokens</p>
           <a href="#" className="read-more">Read More</a>
         </div>
         <div className="news-card">
-          <h2>Mining Difficulty Increases</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+          <h2>Akash Network vs. Traditional Mining: A Cost-Benefit Analysis</h2>
+          <p>Comparing the costs and benefits of mining on Akash Network versus traditional mining methods</p>
           <a href="#" className="read-more">Read More</a>
         </div>
       </div>
