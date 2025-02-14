@@ -97,3 +97,44 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/* Articles */
+.article-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.article-title-box {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.article-title-box h1 {
+  margin: 0;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.article-content-box {
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #1a1a1a, #333);
+}
+
+.article-content-box p {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.article-content-box strong {
+  font-weight: bold;
+  color: #ccc;
+}
