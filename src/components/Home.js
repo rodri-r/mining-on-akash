@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -19,10 +20,10 @@ function Home() {
           </p>
         </div>
         <div className="feature">
-          <a href="/news">
-            <img src="https://peach-net-dolphin-661.mypinata.cloud/ipfs/bafkreihcg22dwako2fllihgmbzhvdxtl5rrp45r2mr7vkj4hehvx7h6dqy" alt="Mining News" />
-          </a>
-          <h2>Mining News and Updates</h2>
+            <Link to="/news">
+    <img src="https://peach-net-dolphin-661.mypinata.cloud/ipfs/bafkreihcg22dwako2fllihgmbzhvdxtl5rrp45r2mr7vkj4hehvx7h6dqy" alt="Mining News" />
+  </Link>
+  <h2>Mining News and Updates</h2>
           <p>
             Stay informed with the latest mining news and updates.
           </p>
@@ -33,7 +34,7 @@ function Home() {
           </a>
           <h2>Community Support</h2>
           <p>
-            Join our community and get support from other miners.
+            Join our Discord and get support from other miners.
           </p>
         </div>
       </div>
