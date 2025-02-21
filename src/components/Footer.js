@@ -11,7 +11,7 @@ function Footer() {
       <img src="/powered-by-akash-white.b57aa33b.svg" alt="Powered by Akash Logo" />
       </a>
        <div>
-         <a href="https://discord.gg/akashnetwork" target="_blank" rel="noopener noreferrer">
+         <a href="https://discord.gg/akash" target="_blank" rel="noopener noreferrer">
          <FontAwesomeIcon icon={faDiscord} />
          </a>
        </div>

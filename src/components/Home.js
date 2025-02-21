@@ -11,28 +11,28 @@ function Home() {
       </p>
       <div className="features-container">
         <div className="feature">
-          <a href="/stats">
+          <Link to="/stats">
             <img src="https://peach-net-dolphin-661.mypinata.cloud/ipfs/bafkreibyvf6vhzhcn37rc7z7ijlf3zojvyvgmehwitf2vd6lgcsoqek6ni" alt="Mining Stats" />
-          </a>
-          <h2>Real-time Mining Stats</h2>
+          </Link>
+          <Link to="/stats"><h2>Real-time Mining Stats</h2></Link>
           <p>
             Get the latest mining stats and stay up-to-date with the market.
           </p>
-        </div>
-        <div className="feature">
-            <Link to="/news">
-    <img src="https://peach-net-dolphin-661.mypinata.cloud/ipfs/bafkreihcg22dwako2fllihgmbzhvdxtl5rrp45r2mr7vkj4hehvx7h6dqy" alt="Mining News" />
-  </Link>
-  <h2>Mining News and Updates</h2>
+          </div>
+          <div className="feature">
+          <Link to="/news">
+            <img src="https://peach-net-dolphin-661.mypinata.cloud/ipfs/bafkreihcg22dwako2fllihgmbzhvdxtl5rrp45r2mr7vkj4hehvx7h6dqy" alt="Mining News" />
+          </Link>
+          <Link to="/news"><h2>Mining News and Updates</h2></Link>
           <p>
             Stay informed with the latest mining news and updates.
           </p>
         </div>
         <div className="feature">
-          <a href="https://discord.gg/akashnetwork" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.gg/9fw5h6fSPp" target="_blank" rel="noopener noreferrer">
             <img src="https://peach-net-dolphin-661.mypinata.cloud/ipfs/bafkreibtlr3ezohhpncha3lvi5unc6dl2ihpof5xhwcsckdbyzgr5h3uhe" alt="Community Support" />
           </a>
-          <h2>Community Support</h2>
+          <Link to="https://discord.gg/9fw5h6fSPp"><h2>Community Support</h2></Link>
           <p>
             Join our Discord and get support from other miners.
           </p>
